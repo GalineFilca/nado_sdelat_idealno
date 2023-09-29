@@ -9,7 +9,6 @@
 html {
   height: 100%;
   margin: 0 auto;
-  background-color: rgb(193, 0, 0);
 }
 
 .page {
@@ -20,7 +19,6 @@ html {
   height: 100%;
   min-width: 800px;
   font-family: "Raleway", sans-serif;
-  background-color: chartreuse;
   z-index: -6;
 }
 
@@ -41,12 +39,10 @@ html {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin: 0;
-  background-color: chocolate;
 }
 
 .page__heading:hover {
   color: #4c4c4c;
-  background-color: blueviolet;
 }
 
 .page__heading:hover::before {
@@ -82,6 +78,5 @@ html {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: darkblue;
   z-index: -1;
 }
